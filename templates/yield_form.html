@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section form-wrap">
+  <h2 data-i18n="yield_form_title">Crop Yield Predictor</h2>
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      {% for cat,msg in messages %}
+        <div class="flash {{ cat }}">{{ msg }}</div>
+      {% endfor %}
+    {% endif %}
+  {% endwith %}
+
+  <form method="post" id="yieldForm">
+    <div class="grid">
+      <label>Location (city)<small data-i18n="loc_hint"> — used to fetch Temperature, Humidity & Wind</small>
+        <input id="locationInput" name="location" placeholder="e.g. Lucknow" />
+        <button type="button" id="fetchWeather" class="small">Fetch weather</button>
+      </label>
+
+      <label>Soil pH
+        <input name="Soil_pH" step="0.01" required value="{{ inputs.Soil_pH if inputs else '' }}">
+      </label>
+
+      <label>Temperature (°C)
+        <input id="Temperature" name="Temperature" step="0.1" required value="{{ inputs.Temperature if inputs else '' }}">
+      </label>
+
+      <label>Humidity (%)
+        <input id="Humidity" name="Humidity" step="0.1" required value="{{ inputs.Humidity if inputs else '' }}">
+      </label>
+
+      <label>Wind Speed (m/s)
+        <input id="Wind_Speed" name="Wind_Speed" step="0.1" required value="{{ inputs.Wind_Speed if inputs else '' }}">
+      </label>
+
+      <label>N
+        <input name="N" step="0.1" required value="{{ inputs.N if inputs else '' }}">
+      </label>
+
+      <label>P
+        <input name="P" step="0.1" required value="{{ inputs.P if inputs else '' }}">
+      </label>
+
+      <label>K
+        <input name="K" step="0.1" required value="{{ inputs.K if inputs else '' }}">
+      </label>
+
+      <label>Soil Quality (0-10)
+        <input name="Soil_Quality" step="0.1" required value="{{ inputs.Soil_Quality if inputs else '' }}">
+      </label>
+
+      <label>Crop Type
+        <select name="Crop_Type" required>
+          {% for c in crops %}
+            <option value="{{ c }}" {% if inputs and inputs.Crop_Type==c %}selected{% endif %}>{{ c }}</option>
+          {% endfor %}
+        </select>
+      </label>
+
+      <label>Soil Type
+        <select name="Soil_Type" required>
+          {% for s in soils %}
+            <option value="{{ s }}" {% if inputs and inputs.Soil_Type==s %}selected{% endif %}>{{ s }}</option>
+          {% endfor %}
+        </select>
+      </label>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" class="btn primary" data-i18n="predict">Predict Yield</button>
+    </div>
+  </form>
+
+  {% if prediction is not none %}
+  <div class="result">
+    <h3 data-i18n="prediction_result">Prediction</h3>
+    <p><strong>{{ prediction }}</strong> (units as per your model)</p>
+  </div>
+  {% endif %}
+</section>
+{% endblock %}

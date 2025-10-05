@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero parallax">
+  <div class="hero-inner">
+    <h1 data-i18n="hero_title">Hackriculture</h1>
+    <p data-i18n="hero_sub">AI tools for small farmers — yield prediction & irrigation recommendations.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="{{ url_for('services') }}" data-i18n="get_started">Get Started</a>
+      <a class="btn ghost" href="#about" data-i18n="learn_more">Learn more</a>
+    </div>
+  </div>
+</section>
+
+<section class="cards">
+  <div class="card" onclick="location.href='{{ url_for('yield_predict') }}'">
+    <h3 data-i18n="card_yield">Crop Yield Predictor</h3>
+    <p data-i18n="card_yield_desc">Enter soil & crop info, and get yield estimates using our ML model.</p>
+  </div>
+  <div class="card" onclick="location.href='{{ url_for('irrigation') }}'">
+    <h3 data-i18n="card_irrig">Irrigation Recommendation</h3>
+    <p data-i18n="card_irrig_desc">Quick advice on whether irrigation is needed (Rice-focused).</p>
+  </div>
+</section>
+
+<section id="about" class="section about">
+  <h2 data-i18n="about_heading">About Hackriculture</h2>
+  <p data-i18n="about_text">Hackriculture helps small-scale farmers make data-driven decisions. It uses local soil and weather data plus machine learning to estimate yields and recommend irrigation, lowering risk and improving sustainability.</p>
+  <a href="{{ url_for('about') }}" class="btn">Read more</a>
+</section>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section">
+  <h2 data-i18n="services_heading">Services</h2>
+  <p data-i18n="services_text">We provide two core services to support small farmers:</p>
+
+  <div class="cards small">
+    <div class="card" onclick="location.href='{{ url_for('yield_predict') }}'">
+      <h3 data-i18n="card_yield">Crop Yield Predictor</h3>
+      <p data-i18n="card_yield_desc">Predict expected yield and make harvest planning better.</p>
+    </div>
+    <div class="card" onclick="location.href='{{ url_for('irrigation') }}'">
+      <h3 data-i18n="card_irrig">Irrigation Recommendation</h3>
+      <p data-i18n="card_irrig_desc">Actionable irrigation advice to conserve water and improve results.</p>
+    </div>
+  </div>
+</section>
+{% endblock %}

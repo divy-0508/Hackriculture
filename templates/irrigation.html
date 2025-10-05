@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section form-wrap">
+  <h2 data-i18n="irrigation_title">Irrigation Recommendation</h2>
+
+  <form method="post">
+    <div class="grid">
+      <label>Crop Name (Rice)
+        <select name="crop_name">
+          {% for c in crops %}
+            <option value="{{ c }}">{{ c }}</option>
+          {% endfor %}
+        </select>
+      </label>
+
+      <label>Soil Moisture (%)
+        <input name="moisture" step="0.1" required value="{{ inputs.moisture if inputs else '' }}">
+      </label>
+
+      <label>Temperature (°C)
+        <input name="temp" step="0.1" required value="{{ inputs.temp if inputs else '' }}">
+      </label>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" class="btn primary" data-i18n="check_irrig">Check</button>
+    </div>
+  </form>
+
+  {% if result %}
+    <div class="result">
+      <h3 data-i18n="result">Result</h3>
+      <p>{{ result }}</p>
+    </div>
+  {% endif %}
+</section>
+{% endblock %}
