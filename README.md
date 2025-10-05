@@ -8,9 +8,6 @@
 
 <br>
 <br>
-<br>
-<br>
-
 
 **✨ Features**
 
@@ -22,8 +19,6 @@
 -🌎 **Global Reach** – Works for cities, trails, lakes, and more worldwide.<br>
 -**⚡ Fast Results** – Instant forecasts and visual risk indicators.<br>
 
-<br>
-<br>
 <br>
 <br>
 
