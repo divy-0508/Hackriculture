@@ -6,7 +6,12 @@
 >It also acts as a one-stop information hub, offering real-time weather forecasts and details on beneficial government schemes.
 >Our goal is to help farmers make informed, data-driven decisions to optimize their yields and enhance their agricultural practices through accessible technology.**
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
