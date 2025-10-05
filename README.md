@@ -24,4 +24,4 @@
 
 | Live App | Screenshot |
 |---------|------------|
-| [**👉 Try apk**](https://hackriculture-updated.onrender.com/) | ![App Screenshot](home.jpg) |
+| [**👉 Try apk**](https://hackriculture-updated.onrender.com/) | ![App Screenshot](agri.jpg) |
