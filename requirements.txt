@@ -1,5 +1,13 @@
+# Upgrade pip, setuptools, and wheel first to ensure builds work
+pip>=25.2
+setuptools>=68.0
+wheel>=0.41
+
+# Core dependencies
 Flask==2.2.5
 requests==2.31.0
 python-dotenv==1.0.0
 gunicorn==20.1.0
-numpy==1.25.2
+
+# Scientific / data packages
+numpy>=1.25.2
