@@ -10,22 +10,22 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-
-
 
 
 **✨ Features**
 
--📈 **crop yield prediction**: system that leverages historical data, real-time weather inputs, and soil parameters to forecast harvest outcomes with high accuracy.
--🌿 **Fertilizer Recommendation**: Suggests the appropriate amount of NPK (Nitrogen, Phosphorus, Potassium) fertilizers for your soil and selected crop.
--🌾 **Crop Information**: Provides a comprehensive database of various crops, offering valuable information for farmers.
--☀️ **Weather Information**: Gives access to real-time weather data and forecasts to help with agricultural planning.
--🎨 **Personalized Interface** – Intuitive, mobile-friendly UI for quick planning.
--🌎 **Global Reach** – Works for cities, trails, lakes, and more worldwide.
--**⚡ Fast Results** – Instant forecasts and visual risk indicators.
+-📈 **crop yield prediction**: system that leverages historical data, real-time weather inputs, and soil parameters to forecast harvest outcomes with high accuracy.<br>
+-🌿 **Fertilizer Recommendation**: Suggests the appropriate amount of NPK (Nitrogen, Phosphorus, Potassium) fertilizers for your soil and selected crop.<br>
+-🌾 **Crop Information**: Provides a comprehensive database of various crops, offering valuable information for farmers.<br>
+-☀️ **Weather Information**: Gives access to real-time weather data and forecasts to help with agricultural planning.<br>
+-🎨 **Personalized Interface** – Intuitive, mobile-friendly UI for quick planning.<br>
+-🌎 **Global Reach** – Works for cities, trails, lakes, and more worldwide.<br>
+-**⚡ Fast Results** – Instant forecasts and visual risk indicators.<br>
 
+<br>
+<br>
+<br>
+<br>
 
 ## 🖼️ Demo
 
