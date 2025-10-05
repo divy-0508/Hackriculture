@@ -1,10 +1,10 @@
 # ML_AURA
 📝 **Description**
->**Hackiculture is a comprehensive web platform designed to empower farmers by bringing modern technology to their fingertips.
-> Leveraging the power of data science, this application provides intelligent recommendations for crop selection and fertilizer usage, tailored to specific soil and climate conditions.**
->**Beyond recommendations, the platform serves as a vital tool for predicting crop diseases, allowing for timely intervention.
->It also acts as a one-stop information hub, offering real-time weather forecasts and details on beneficial government schemes.
->Our goal is to help farmers make informed, data-driven decisions to optimize their yields and enhance their agricultural practices through accessible technology.**
+>**Hackriculture** is an AI-based smart farming assistance solution designed to empower small-scale farmers across India by making agriculture more data-driven, region-aware, and accessible.
+>**The platform integrates crop yield prediction, irrigation guidance, and localized machine learning models** to address key challenges faced by Indian farmers—unpredictable productivity, inefficient resource use, and lack of tailored support.
+> **Leveraging the power of data science**, this application provides intelligent recommendations for crop selection and fertilizer usage, tailored to specific soil and climate conditions.
+>**Beyond recommendations, the platform serves as a vital tool for predicting crop diseases, allowing for timely intervention.**
+>**Our goal is to help farmers make informed**, data-driven decisions to optimize their yields and enhance their agricultural practices through accessible technology.
 
 <br>
 <br>
