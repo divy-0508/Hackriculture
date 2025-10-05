@@ -24,6 +24,6 @@
 
 ## 🖼️ Demo
 
-| Live App | Screenshot |
+| Live WEB | Screenshot |
 |---------|------------|
-| [**👉 Try apk**](https://hackriculture-updated.onrender.com/) | ![App Screenshot](agri.jpg) |
+| [**👉 Try WEB**](https://hackriculture-updated.onrender.com/) | ![App Screenshot](agri.jpg) |
