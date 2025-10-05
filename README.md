@@ -9,9 +9,11 @@
 
 
 
+
+
 **✨ Features**
 
--📈 **Crop Recommendation**: Recommends the ideal crop to grow based on soil conditions and environmental factors like temperature, humidity, and rainfall.
+-📈 **crop yield prediction**: system that leverages historical data, real-time weather inputs, and soil parameters to forecast harvest outcomes with high accuracy.
 -🌿 **Fertilizer Recommendation**: Suggests the appropriate amount of NPK (Nitrogen, Phosphorus, Potassium) fertilizers for your soil and selected crop.
 -🌾 **Crop Information**: Provides a comprehensive database of various crops, offering valuable information for farmers.
 -☀️ **Weather Information**: Gives access to real-time weather data and forecasts to help with agricultural planning.
