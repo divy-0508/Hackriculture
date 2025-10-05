@@ -1,4 +1,10 @@
 # ML_AURA
+📝 **Description**
+Hackiculture is a comprehensive web platform designed to empower farmers by bringing modern technology to their fingertips. Leveraging the power of data science, this application provides intelligent recommendations for crop selection and fertilizer usage, tailored to specific soil and climate conditions.
+
+Beyond recommendations, the platform serves as a vital tool for predicting crop diseases, allowing for timely intervention. It also acts as a one-stop information hub, offering real-time weather forecasts and details on beneficial government schemes. Our goal is to help farmers make informed, data-driven decisions to optimize their yields and enhance their agricultural practices through accessible technology.
+
+
 
 > **Plan your adventures with confidence.**  
 > WeatherWise predicts the likelihood of  
